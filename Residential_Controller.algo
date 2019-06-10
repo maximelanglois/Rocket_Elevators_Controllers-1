@@ -8,6 +8,35 @@ Les objets qui doivent être contrôlés:
 - Portes
 - Boutons de demande d’étage
 
-Le contrôleur pour immeuble résidentiel servira intuitivement pour celui de l'immeuble corporatif qui doit être programmé.
+Le contrôleur pour immeuble résidentiel servira intuitivement 
+pour celui de le immeuble corporatif qui doit être programmé.
 
 
+sequence before opening the doors
+IF the elevator is not on floor level
+    Go to the next floor level
+    Go to sequence to open the doors
+ELSE
+    Go to sequence to open the doors
+
+sequence to open the doors
+GET the actual floor number
+DISPLAY the actual floor number
+    IF elevator was requested to the actual floor
+        TURN OFF request button light
+        OPEN the elevator doors
+    ELSE
+        OPEN the elevator doors
+REPEAT until the doors close
+    WAIT 20 seconds
+    CASE of closing the doors
+        Customer push on the button to close the doors:
+            if something is in the way of closing the doors
+            Return that doors cannot be close
+        
+
+sequence to close the door
+
+
+
+IF the actual floor number is equal to the requested floor number
