@@ -1,0 +1,13 @@
+Exigences pour le contrôleur résidentiel:
+
+L’immeuble Résidentiel pour lequel doit être programmé le premier contrôleur n’a qu’une seule colonne composée de deux ascenseurs et 10 étages.
+Les objets qui doivent être contrôlés:
+- Colonne
+- Ascenseurs (Cage)
+- Boutons d’appel
+- Portes
+- Boutons de demande d’étage
+
+Le contrôleur pour immeuble résidentiel servira intuitivement pour celui de l'immeuble corporatif qui doit être programmé.
+
+

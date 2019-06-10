@@ -1,0 +1,9 @@
+
+Un algorithme est une séquence d’étapes qui permettent de résoudre une tâche donnée.
+Il doit respecter trois critères pour être considéré valide:
+1.  Il doit être fini et délimité: S’il ne se termine jamais en essayant de résoudre le problème en question, 
+    l’algorithme ne sert à rien.
+2.  Ses instructions doivent être clairement définies et chaque étape doivent être précises, 
+    doivent couvrir tous les cas de figure et doivent être dépourvues d'ambiguïtés.
+3.  Il doit être efficace dans la résolution du problème et il faut pouvoir le démontrer de manière simple.
+
