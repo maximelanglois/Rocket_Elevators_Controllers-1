@@ -23,20 +23,20 @@ sequence to open the doors
 GET the actual floor number
 DISPLAY the actual floor number
     IF elevator was requested to the actual floor
-        TURN OFF request button light
+        TURN Off request button light
         OPEN the elevator doors
     ELSE
         OPEN the elevator doors
+
+
+sequence to close the doors
 REPEAT until the doors close
     WAIT 20 seconds
     CASE of closing the doors
         Customer push on the button to close the doors:
             if something is in the way of closing the doors
             Return that doors cannot be close
-        
+        20 seconds waiting time is over:
+            if something is in the way of closing the doors
+            Return that doors cannot be close
 
-sequence to close the door
-
-
-
-IF the actual floor number is equal to the requested floor number
